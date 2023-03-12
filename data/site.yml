@@ -1,0 +1,12 @@
+page_title: 'Welcome to A-Frame'
+poems:
+  - poem:
+      name: 'Poem One'
+      image: '/images/blue_200x200.png'
+      sound: '/sound/tweet.mp3'
+      text: 'dsjdhlasjkhfaldjfhadlfjasfhhjhalfjadhsflajh'
+  - poem:
+      name: 'Poem Two'
+      image: '/image/red_200x200.png'
+      sound: '/sound/tweet.mp3'
+      text: 'sjkdhasljdhsldjhsldjahljkdha'
