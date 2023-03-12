@@ -1,0 +1,30 @@
+<div class="card-columns"> 
+  <div class="continer">
+    <% data.poem.poems.each_with_index do |p, i| %>
+        <div class="card mb-3">
+          <%= image_tag p['hero_image'], class: "img-fluid shadow-2-strong" %>
+          <div class="card-body">
+          <%= image_tag p['profile_image'], class: "img-fluid shadow-2-strong d-flex align-content-center"%>  
+            <h5 class="card-title text-center"><%=  (p['title']) %></h5>
+            <h5 class="card-title text-center"><%=  (p['plant_name']) %></h5>
+            <p class="text-center fst-italic"><%=  (p['plant_name_latin']) %></p>
+            <div class="card-text text-center">
+              <div class="poem-paragraph m-3"><%=  (p['text1']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text2']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text3']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text4']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text5']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text6']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text7']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text8']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text9']) %></div>
+              <div class="poem-paragraph m-3"><%=  (p['text10']) %></div>
+            </div>
+          </div>
+          <div class="d-grid gap-2">
+            <!--  Replace button-->
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>
