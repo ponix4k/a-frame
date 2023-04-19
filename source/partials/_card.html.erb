@@ -1,10 +1,19 @@
-<div class="card-columns"> 
-  <div class="continer">
+
+<style>
+.card-shadow {
+  box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+}
+
+</style>
+<br>
+<div class="card-columns">
+
     <% data.poem.poems.each_with_index do |p, i| %>
-        <div class="card mb-3">
-          <%= image_tag p['hero_image'], class: "img-fluid shadow-2-strong" %>
+        <div class="card m-3 card-shadow">
           <div class="card-body">
-          <%= image_tag p['profile_image'], class: "img-fluid shadow-2-strong d-flex align-content-center"%>  
+            <%= image_tag p['profile_image'], class: "img-fluid shadow-2-strong d-flex align-content-center"%>  
             <h5 class="card-title text-center"><%=  (p['title']) %></h5>
             <h5 class="card-title text-center"><%=  (p['plant_name']) %></h5>
             <p class="text-center fst-italic"><%=  (p['plant_name_latin']) %></p>
@@ -22,9 +31,9 @@
             </div>
           </div>
           <div class="d-grid gap-2">
-            <!--  Replace button-->
+            <!--  ## TODO Replace button-->
           </div>
         </div>
     <% end %>
-  </div>
+
 </div>

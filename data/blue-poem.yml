@@ -1,12 +1,19 @@
+page_title: 'Welcome to A-Frame'
+page_author: 
+  twitter: ''
+  mastodon: ''
+  github: ''
+poem_author:
+  name: 'peter street'
+  isbn: '12345'
 poems:
-
-  - name: 'Dock Leaf'
+  - name: 'Doc Leaf'
     profile_image: '/images/poems/doc-leaf.jpg'
-    profile_alt: 'Dock Leaf'
+    profile_alt: 'Doc Leaf'
     sound_title: 'chirp.mp3'
     sound_path: '/sounds/chirp.mp3'
     hero_image: '/images/hero-images/DarkSlateBlue.png'
-    plant_name: 'Dock leaves'
+    plant_name: 'Doc leaves'
     plant_name_latin: 'Rumex obtusifolius'
     text1: 'Dozens of docks <br> making their way down <br> through the fields <br> to the meeting place'
     text2: 'in the front meadow. Stop <br> wave and cheer'

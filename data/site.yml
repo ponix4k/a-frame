@@ -1,0 +1,25 @@
+page:
+  title: 'Welcome to A-Frame'
+  author: 'John Williams'
+  author_mail_link: 'ponix@protonmail.com'
+poem_author:
+  name: 'peter street'
+  mail_link: 'peter.street3@gmail.com'
+  isbn: '12345'
+navbar:
+  brand_home_url: 'https://leighhack.org'
+  logo_alt: 'Leigh Hackspace'
+  logo_src: '/images/logos/HSLogo.svg'
+footer:
+  author: 'John Williams'
+  mail_alt: 'Send Email'
+  mail_link: 'ponix@protonmail.com'
+  site_alt: 'Project Moonrope'
+  site_link: 'https://projectmoonrope.co.uk'
+  twitter_alt: '@ponix4k'
+  twitter_link: 'https://twitter.com/ponix4k'
+  mastodon_alt: 'ponix@mastodon'
+  mastodon_link: 'https://infosec.exchange/@Ponix'
+  github_alt: 'ponix4k'
+  github_link: 'https://github.co.uk/ponix4k'
+

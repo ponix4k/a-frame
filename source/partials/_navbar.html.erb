@@ -1,3 +1,33 @@
-<nav class="navbar navbar-dark bg-info">
-  <a class="navbar-brand h1" href="#"><%= data.poem.page_title %></a>
+<style>
+.no-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    padding-bottom: 5px;
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+}
+
+
+</style>
+
+<nav class="navbar navbar-dark bg-danger">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="<%= data.site.navbar.brand_home_url %>">
+        <img alt="<%= data.site.navbar.logo_alt %>" src="<%= data.site.navbar.logo_src %>">
+      </a>
+    </div>
+
+      <ul class="nav navbar-nav navbar-dark navbar-right">
+          <a href="mailto:<%= data.site.poem_author.mail_link %>" class="mx-4 no-link"><i class="fas fa-envelope"></i> Contact me</a>
+      </ul>
+
+  </div>
 </nav>

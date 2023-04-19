@@ -16,8 +16,8 @@ end
 
 def generate_hero_images
   COLORS.each do |color|
-    width = 550
-    height = 100
+    width = 500
+    height = 45
     png = ChunkyPNG::Image.new(width, height, ChunkyPNG::Color(color))
     filename = "#{color}.png"
     save_path = "source/images/hero-images/#{filename}"
