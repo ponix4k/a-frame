@@ -14,19 +14,35 @@
     }
 }
 
+.nav-bar:hover {
+  text-shadow: 6px 5px 12px rgba(236,223,63,0.72);
+}
+
+.moon {
+  margin-left: 0px;
+  transform: translate(-9px,0px);
+-webkit-transform: translate(-9px,0px);
+-moz-transform: translate(-9px,0px);
+}
 
 </style>
 
 <nav class="navbar navbar-dark bg-danger">
-  <div class="container-fluid">
+  <div class="container-fluid mx-0 ml-sm-4">
     <div class="navbar-header">
       <a class="navbar-brand" href="<%= data.site.navbar.brand_home_url %>">
         <img alt="<%= data.site.navbar.logo_alt %>" src="<%= data.site.navbar.logo_src %>">
       </a>
+      <p class="navbar-brand" style="margin:0px;">|</p>
+      <a class="navbar-brand moon" href="<%= data.site.navbar.brand_home_url %>">
+        <img alt="<%= data.site.navbar.author_logo_alt %>" src="<%= data.site.navbar.author_logo_src %>">
+      </a>
     </div>
 
       <ul class="nav navbar-nav navbar-dark navbar-right">
-          <a href="mailto:<%= data.site.poem_author.mail_link %>" class="mx-4 no-link"><i class="fas fa-envelope"></i> Contact me</a>
+          <a href="mailto:<%= data.site.poem_author.mail_link %>" class="mx-4 no-link">
+            <i class="fas fa-envelope"></i> Contact me
+          </a>
       </ul>
 
   </div>

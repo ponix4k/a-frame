@@ -10,6 +10,9 @@ navbar:
   brand_home_url: 'https://leighhack.org'
   logo_alt: 'Leigh Hackspace'
   logo_src: '/images/logos/HSLogo.svg'
+  author_home_url: 'https://progjectmoonrope.co.uk'
+  author_logo_alt: 'Projectmoonrope'
+  author_logo_src: '/images/logos/moon2.svg'
 footer:
   author: 'John Williams'
   mail_alt: 'Send Email'
