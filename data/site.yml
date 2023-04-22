@@ -5,12 +5,13 @@ page:
 poem_author:
   name: 'peter street'
   mail_link: 'peter.street3@gmail.com'
+  mail_sub: 'Earth Talk'
   isbn: '12345'
 navbar:
   brand_home_url: 'https://leighhack.org'
   logo_alt: 'Leigh Hackspace'
   logo_src: '/images/logos/HSLogo.svg'
-  author_home_url: 'https://progjectmoonrope.co.uk'
+  author_home_url: 'https://projectmoonrope.co.uk'
   author_logo_alt: 'Projectmoonrope'
   author_logo_src: '/images/logos/moon2.svg'
 footer:
